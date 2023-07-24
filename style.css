@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.containerMain{
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+}
+.containerOne{
+    background-color: #1F2937;
+    color: whitesmoke;
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.one{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.logo{
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.navBar{
+    display: flex;
+    gap: 15px;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    flex: 1;
+    justify-content: flex-end;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.forest{
+    border: 3px solid gray;
+}
+.two{
+    display: flex;
+    flex: 1;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 2rem;
+}
+.heading{
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 2rem 0 0 0;
+}
+.subHeading{
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.forest{
+    max-width: 20%;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+}
+.buttonOne{
+    border-radius: 10px;
+    border: 0;
+    width: 75px;
+    height: 25px;
+    text-align: center;
+    background-color: #3882F6;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.containerTwo{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 10px;
+    height: 20vh;
+    flex-direction: column;
+    padding: 2rem;
+}
+.containerTwo > p{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0 0 0;
+    margin-bottom: 20px;
+}
+.animals{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    justify-content: center;
+}
+.animals p{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+.cat, .dog, .squirrel, .fish{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    align-items: center;
+}
+.animals img{
+    max-width: 50%;
+    border-radius: 10px;
+    border: 3px solid gray;
+}
+.containerThree{
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: center;
+    height: 20vh;
+    padding: 2rem;
+}
+.containerFour{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 0;
+}
+.containerInnerFour{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    max-width: 50%;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+}
+.signUp{
+    color: whitesmoke;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.catch{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.buttonTwo{
+    border-radius: 10px;
+    width: 4rem;
+    height: 3rem;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    background-color: #3882F6;
+    color: whitesmoke;
+    margin-right: 2.5rem;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: whitesmoke;
+}
+@media (max-width:1240px){
+    .animals{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navBar{
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 4rem;
+        margin-right: 1rem;
+    }
+    .forest{
+        margin-right: 1rem;
+        height: 4rem;
+        width: 6rem;
+    }
+    .two{
+        align-items: center;
+    }
+}
+@media (max-width:280px){
+    .navBar{
+        display: none;
+    }
+}
